@@ -1,0 +1,15 @@
+# Ignore certain folders
+node_modules/
+/zendesk-rest-api-integration/TypeScriptDeclarationFiles
+/ad-data-processing/config/log4net/bin
+
+# Various files to ignore
+*.log*
+*.suo
+*.sln
+*.csproj*
+*.map
+*.dat
+*.gitattributes
+*.xml
+.DS_Store

@@ -1,0 +1,30 @@
+{
+  "name": "zendesk-synchronizer",
+  "version": "1.1.0",
+  "description": "Middlelayer ExpressJS APP, mapping the Zendesk REST API. Used by the PowerShell code included in the project as the receiver of ActiveDirectory data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "set NODE_ENV=sandbox && node index.js"
+  },
+  "keywords": [
+    "synchronize",
+    "AD",
+    "Zendesk",
+    "sync",
+    "active direcotry",
+    "ActiveDirectory",
+    "REST",
+    "integrate",
+    "integration"
+  ],
+  "author": "https://github.com/larssb",
+  "license": "Proprietary",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "install": "^0.1.8",
+    "node-zendesk": "^1.1.1",
+    "npm": "^2.7.6"
+  }
+}
